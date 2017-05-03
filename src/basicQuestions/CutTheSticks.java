@@ -1,6 +1,5 @@
 package basicQuestions;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.ListIterator;
@@ -19,6 +18,8 @@ public class CutTheSticks {
 		for(int i=0; i<n;i++){		
 			arr[i]=scan.nextInt();
 		}
+		
+		scan.close();
 		
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for( int i= 0; i< arr.length; i++){	

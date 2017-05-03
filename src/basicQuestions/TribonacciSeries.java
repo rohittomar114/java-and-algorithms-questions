@@ -9,6 +9,8 @@ public class TribonacciSeries {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number till u want Tribonacci series: ");
         int n=sc.nextInt();
+        
+        sc.close();
 
         int a = 0,b = 0,c = 1;
         int d = a+b+c;

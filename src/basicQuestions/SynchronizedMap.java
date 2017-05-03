@@ -15,7 +15,7 @@ public class SynchronizedMap {
          hmap.put(4, "Sachin");
          hmap.put(88, "XYZ");
 
-         Map map= Collections.synchronizedMap(hmap);
+         Map<Integer, String> map= Collections.synchronizedMap(hmap);
          Set set = map.entrySet();
          synchronized(map){
              Iterator i = set.iterator();
