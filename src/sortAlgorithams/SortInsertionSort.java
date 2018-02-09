@@ -1,4 +1,4 @@
-package basicQuestions;
+package sortAlgorithams;
 
 public class SortInsertionSort {
 	
