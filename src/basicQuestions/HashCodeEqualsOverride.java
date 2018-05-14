@@ -23,7 +23,7 @@ public class HashCodeEqualsOverride {
 		
 		for( User s : set){
 			
-			System.out.println(s);
+			System.out.println(s + ">>>>>"+ s.toString());
 		}
 	}
 }

@@ -7,8 +7,10 @@ public class Palindrome {
 
         String s="rotator";
         
+        String str= palindrome(s);
+        System.out.println(str);
         
-        String reverse="";
+       /* String reverse="";
 
         for(int i=s.length()-1;i>=0;i--) {
             reverse = reverse+s.charAt(i);
@@ -21,7 +23,24 @@ public class Palindrome {
         }else {
 
         	System.out.println(s+" is NOT a palindrome");
-        }    
+        }  */  
+    }
+    
+    private static String palindrome(String str){
+    	
+    	String result=" String is Palindrome";
+    	int j= str.length()-1;
+    	
+    	for(int i = 0; i<j; i++){
+    		
+    		if(str.charAt(i)== str.charAt(j)){
+    			j--;	
+    		}else{
+    			result=" String is Not Palindrome";
+    			break;
+    		}	
+    	} 	
+    	return result;	
     }
     
 }

@@ -6,4 +6,8 @@ nejfhjfgjf
 nejfjdnff,
 dbjsdnfksn
 bsjnkdfmnn*/
+ //git log  to find commit id	
+	//git revert <coomit_id>
 }
+
+

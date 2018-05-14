@@ -1,0 +1,25 @@
+
+1. http://www.webservicex.net/geoipservice.asmx?WSDL
+ use above link to get online Soap Service of to determine from which
+ country does this IP Address belongs to.
+NOTE if any step starts with ">>" it means its command to use in cmd without >>
+1. Go to command Prompt create "sei" folder and move inside it in your cmd
+2.>> wsimport
+3. above command will show what how to use it 
+4.>> wsimport http://www.webservicex.net/geoipservice.asmx?WSDL
+5. 4 step  wsimport is follow by URL of WSDL 
+6.>> dir/ls (window/linux)
+7. One "net" folder will be creates after generating and compiling .class files
+of sei will be created and Java files will get deleted after creating class files
+8. So if we want to retain .java files then Options in wsimport command will be used
+9.>> wsimport -keep -s src http://www.webservicex.net/geoipservice.asmx?WSDL 
+10. in 9th command "-keep" is used to retain java files and "-s" and "src" is 
+used to save java file is src folder creted by you inside folder
+ where commands are getting executed
+ 11. So net folder containing stubs (sei .java)files will we created inside src folder 
+ created by you
+ 12. copy java file in your project by creating required package 
+ mentioned in these stubs
+ 13. to find services stubs among java files check WSDL file and file name in "wsld: service"
+ and "wsdl:port" inside it are stubs files so use them to get services by creating thier objects 
+ in in other file were you need them
