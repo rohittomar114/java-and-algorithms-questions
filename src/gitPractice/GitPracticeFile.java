@@ -8,6 +8,10 @@ dbjsdnfksn
 bsjnkdfmnn*/
  //git log  to find commit id	
 	//git revert <coomit_id>
+  
+	//Commit 1
+	//Commit 2
+
 }
 
 
